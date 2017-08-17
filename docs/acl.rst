@@ -50,7 +50,7 @@ and logged in users can also edit but not delete. In your settings:
           defaults permissions, so, you wouldn't need to set them.
           Check :confval:`WALIKI_ANONYMOUS_USER_PERMISSIONS` and :confval:`WALIKI_LOGGED_USER_PERMISSIONS` for further details.
 
-Then go to the admin an create the following rules:
+Then go to the admin and create the following rules:
 
 - One rule for the slug **intranet** with the permissions
   ``view_page``, ``add_page`` and ``change_page``. In "Apply to" select *Any authenticated user*
